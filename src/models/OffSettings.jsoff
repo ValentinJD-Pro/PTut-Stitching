@@ -64,20 +64,19 @@ export class Settings {
                 values: this.getDiscreteParams(paramTypes.compareImageType.id)
             },
 
-
             {
                 id: paramTypes.imageCap.id,
                 type: valueTypes.rangeSquareRoot,
-                defaultValue: 4000000, 
+                defaultValue: 4000000,
                 value: 4000000,
-                range: { min: 10000, max: 20000000 }
+                range: { min: 10000, max: 4000000 }
             },
             {
                 id: paramTypes.imageCapInput.id,
                 type: valueTypes.rangeSquareRoot,
                 defaultValue: 4000000,
                 value: 4000000,
-                range: { min: 10000, max: 20000000 }
+                range: { min: 10000, max: 4000000 }
             },
 
             {
